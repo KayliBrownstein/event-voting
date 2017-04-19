@@ -1,10 +1,9 @@
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import EventComponent from './EventComponent';
 
-$(function() {
   ReactDOM.render(
-    <h1>Hello, World</h1>,
+    <EventComponent />,
     document.getElementById('app')
   );
-});
