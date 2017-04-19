@@ -1,0 +1,14 @@
+<h2><%= @event.name %></h2>
+
+  <ul>
+    <li>Name: <%= @event.name %></li>
+    <li>Date: <%= @event.date %></li>
+    <li>Time: <%= @event.time %></li>
+    <li>Location: <%= @event.location %></li>
+  </ul>
+
+<p><%= @event.description %></p>
+
+  <br />
+  <br />
+  <%= link_to "Events", root_path %>
